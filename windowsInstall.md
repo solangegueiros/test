@@ -6,6 +6,7 @@
   - [RVM](https://rvm.io/) is recommended to install and switch between multiple Ruby versions.
 - ***RubyGems*** - it is installed with Ruby (which you can check by running `gem -v`)
 - ***GCC and Make*** (install MSYS2 which is included with Ruby installer)
+- ***Jekyll*** (version can be checked by running `jekyll -v`)
 
 
 ## Installing the requirements
@@ -46,22 +47,50 @@ If it don't start automatically, at the end of Ruby installer, run `ridk install
 
 &nbsp;
 
-At terminal, you need to choose option **1**
+At terminal, choose option **1**
 
-![At terminal, you need to choose option **1**](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-04.png)
+![At terminal, choose option **1**](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-04.png)
 
 
 &nbsp;
+
+When you finished, at terminal, you can check if all is ok:
+```shell
+ruby -v
+gem -v
+```
+
+&nbsp;
+
+### Jekyll
+
+At terminal:
+```shell
+gem install bundler jekyll
+gem -v
+```
+
+Verify your installation:
+```shell
+bundler -v
+jekyll -v
+```
+
+&nbsp;
+
 
 ## Set up
 
 Clone this repository, and run the following commands in its directory:
 
 ```shell
-sudo gem install bundler
-bundle update
 bundle install
 ```
+
+If you had this error:
+Your Ruby version is 2.6.5, but your Gemfile specified 2.6.3
+You must install the correct Ruby version, look [here](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/windowsInstall.md#ruby).
+
 
 Verify your installation:
 
@@ -76,37 +105,17 @@ and they should all print out their version numbers.
 
 ## Usage
 
-### Production build
-
-```bash
-rake prod
-```
-
-You will now find a site ready for production in `./_site`.
-
 ### Development mode
 
 ```bash
-rake dev
+bundle exec jekyll serve
 ```
-
-You will now find a site located in `./_site`,
-and this will be served at [`https://localhost:4000/`](https://localhost:4000/).
+You will now find a site located in `./_site` .
 Each time you save a file, the site will get regenerated.
 
-### Test build outputs
+Open in the browser: [`https://localhost:4000/`](https://localhost:4000/).
 
-To run tests that check whether there are any errors in the site:
-
-```bash
-rake test
-```
-
-This run tests that check whether there are any errors in the site.
-Currently runs the following basic checks:
-
-- Detect broken links
-- Validate generated JSON file used by search
+&nbsp;
 
 ## Contributing
 
