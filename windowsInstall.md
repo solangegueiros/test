@@ -28,7 +28,20 @@ The version 2.6.3 is not the last, so you nedd to go here to find it:
 
 
 ![Ruby install path](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-01.png)
+
 *Do not install in Program files, if you do it, after it not works because it do not find it.*
+
+<figure>
+  <img src="https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-02.png" alt="my alt text"/>
+  <figcaption>You need to install MSYS2 which is included with Ruby installer.</figcaption>
+</figure>
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 You need to install MSYS2 which is included with Ruby installer.
 
