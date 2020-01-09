@@ -23,14 +23,15 @@ ruby "2.6.3"
 The version 2.6.3 is not the last, so you nedd to go here to find it:
 - Old versions: [https://rubyinstaller.org/downloads/archives/](https://rubyinstaller.org/downloads/archives/)
 
-<br/>
+
+
 Do not install in Program files, if you do it, after it not find the it.
-<br/>
+
 ![Ruby install path](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-01.png)
 
-<br/>
+
 You need to install MSYS2 which is included with Ruby installer.
-<br/>
+
 ![Check MSYS2](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-02.png)
 
 <br/>
