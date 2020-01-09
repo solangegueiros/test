@@ -31,25 +31,15 @@ The version 2.6.3 is not the last, so you nedd to go here to find it:
 
 *Do not install in Program files, if you do it, after it not works because it do not find it.*
 
-<figure>
-  <img src="https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-02.png" alt="my alt text"/>
-  <figcaption>You need to install MSYS2 which is included with Ruby installer.</figcaption>
-</figure>
-
-
 &nbsp;
-
-&nbsp;
-
-&nbsp;
-
-You need to install MSYS2 which is included with Ruby installer.
-
 ![Check MSYS2](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-02.png)
 
-MSYS2 setup will run start automatically, at the end of Ruby installer.
+*You need to install MSYS2 which is included with Ruby installer.*
 
+&nbsp;
 ![Run ridk install](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-03.png)
+
+*MSYS2 setup will run start automatically, at the end of Ruby installer.*
 
 If it don't start automatically, at the end of Ruby installer, run `ridk install` to setup MSYS2 and development toolchain. 
 
