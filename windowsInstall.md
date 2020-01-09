@@ -24,16 +24,17 @@ The version 2.6.3 is not the last, so you nedd to go here to find it:
 - Old versions: [https://rubyinstaller.org/downloads/archives/](https://rubyinstaller.org/downloads/archives/)
 
 
-![Do not install in Program files, if you do it, after it not find the it.](C:\PROJETOS\RSK\test\assets\img\windowsInstall\windowsInstall-01.png)
+![Do not install in Program files, if you do it, after it not find the it.](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-01.png)
 
 
-![You need to install MSYS2 which is included with Ruby installer.](C:\PROJETOS\RSK\test\assets\img\windowsInstall\windowsInstall-02.png)
 
-![MSYS2 setup will run start automatically, at the end of Ruby installer.](C:\PROJETOS\RSK\test\assets\img\windowsInstall\windowsInstall-03.png)
+![You need to install MSYS2 which is included with Ruby installer.](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-02.png)
+
+![MSYS2 setup will run start automatically, at the end of Ruby installer.](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-03.png)
 
 If it don't start automatically, at the end of Ruby installer, run `ridk install` to setup MSYS2 and development toolchain. 
 
-![At terminal, you need to choose option **1**](C:\PROJETOS\RSK\test\assets\img\windowsInstall\windowsInstall-04.png)
+![At terminal, you need to choose option **1**](https://github.com/solangegueiros/test/blob/feature/WindowsSetupInstructions/assets/img/windowsInstall/windowsInstall-04.png)
 
 At terminal, you need to choose option **1**
 
